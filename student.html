@@ -9,7 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-body-secondary">
     <nav class="navbar bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -23,7 +23,6 @@
         <div class="row">
             <div class="col-10 mt-4">
                 <h2 class="text-start">Students</h2>
-
             </div>
             <div class="col-2 mt-4 ">
                 <!-- Button trigger modal -->
@@ -88,12 +87,81 @@
     <div class="container text-center">
         <div class="row p-4 row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
             <div class="col mt-3">
+                <a class="nav-link active" aria-current="page" href="./student-details.html">
+                    <div class="card">
+                        <img src="./assests/image.png" class="card-img-center mt-1 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">M. Saim</h5>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="card-text fw-light text-secondary">Gender</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-text fw-light text-secondary">Birth</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-text fw-semibold">Male</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-text fw-semibold">Feb 1, 2009</p>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <p class="card-text fw-light text-secondary">Qualification</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-text fw-light text-secondary">CNIC</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-text fw-semibold">Provided</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-text fw-semibold">1234567890</p>
+                                </div>
+                            </div>
+                            <p class="d-inline-flex gap-1 mt-3">
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    More
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default
+                        but
+                        revealed when the user activates the relevant trigger.
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col mt-3">
                 <div class="card">
                     <img src="./assests/image.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Saim</h5>
                         <p class="card-text">22</p>
-                        <a href="#" class="btn btn-primary w-100">Remove</a>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Link with href
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample2">
+                            <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,7 +171,18 @@
                     <div class="card-body">
                         <h5 class="card-title">Saim</h5>
                         <p class="card-text">22</p>
-                        <a href="#" class="btn btn-primary w-100">Remove</a>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Link with href
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample3">
+                            <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,7 +192,18 @@
                     <div class="card-body">
                         <h5 class="card-title">Saim</h5>
                         <p class="card-text">22</p>
-                        <a href="#" class="btn btn-primary w-100">Remove</a>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Link with href
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample4">
+                            <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,26 +213,30 @@
                     <div class="card-body">
                         <h5 class="card-title">Saim</h5>
                         <p class="card-text">22</p>
-                        <a href="#" class="btn btn-primary w-100">Remove</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mt-3">
-                <div class="card">
-                    <img src="./assests/image.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Saim</h5>
-                        <p class="card-text">22</p>
-                        <a href="#" class="btn btn-primary w-100">Remove</a>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Link with href
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample5">
+                            <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
